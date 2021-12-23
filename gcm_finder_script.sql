@@ -86,7 +86,7 @@ create table EXTRA
     MUNICIP        varchar(40)
 );
 
-create unique index VERT_ID_uindex
+create unique index EXTRA_ID_uindex
     on EXTRA (ID);
 
 -----------------------------------------------
